@@ -1,0 +1,115 @@
+.container{
+    height:100vh;
+    width:100%;
+    background-color: rgb(232, 232, 232);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topContainer{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:20px;
+    padding-top: 40px;
+    gap:80px;
+}
+
+.leftContainer p{
+   letter-spacing: 2px;
+   color:rgb(95, 95, 95)
+}
+
+.smallContainer {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    width:350px;
+    height: fit-content;
+    align-self: flex-end;
+  }
+  
+  .infoSection {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-bottom: 10px;
+  }
+  
+  .duration{
+    background: rgba(0, 54, 78, 1);
+    border-radius: 5px;
+    color:white;
+    align-items: center;
+    padding:5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .button {
+    width: 100%;
+    background-color: rgb(0, 123, 255); 
+    padding: 10px;
+    color:white;
+    border:none;
+    border-radius:15px;
+  }
+  
+  
+  .rightContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+  }
+  
+  
+  .lowerContainer{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(113, 200, 254, 0.564);
+    position: relative;
+    width:90%;
+    height:280px;
+    border-radius: 10px;
+    flex-direction: column;
+  }
+  .img1{
+    position: absolute;
+    bottom: 0px;
+}
+.img2{
+      bottom: 0px;
+    position: absolute;
+    z-index:2;
+    left:50px;
+  }
+
+.infoLeftContainer{
+    width:524px;
+    height: 292px;
+    align-self: center;
+    position: absolute;
+    right: 80px;
+    top:40px;
+}
+
+.infoLeftContainer h1{
+    font-size: 3em;
+    font-weight: bold;
+}
+.infoLeftContainer p{
+    letter-spacing:2px;
+}
+
+.lowerbtn{
+    padding:10px 40px 10px;
+    background-color:rgba(0, 123, 255, 1);
+    color:white;
+    border-style: none ;
+    width: fit-content;
+    border-radius: 10px;
+}

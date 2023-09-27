@@ -1,0 +1,42 @@
+.container{
+    padding:20px 50px 20px;
+    text-align:center;
+    margin-bottom:40px;
+
+}
+.container h1{
+    margin-top:40px;
+}
+
+.subjects{
+    display: flex;
+    justify-content: space-around;
+}
+
+.chemistry{
+    background: rgba(255, 237, 240, 1);
+   padding:20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 250px;
+   border-radius: 10px;
+}
+.physics{
+    background: rgba(255, 243, 236, 1);
+   padding:20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 250px;
+   border-radius: 10px;
+}
+.biology{
+    background: rgba(242, 255, 237, 1);
+   padding:20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 250px;
+   border-radius: 10px;
+}

@@ -1,0 +1,36 @@
+.container{
+    height:100vh;
+    width:100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.leftContainer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(212, 233, 255, 1);
+    height:100vh;
+    flex:1;
+}
+
+.rightContainer{
+    height:100vh;
+    flex: 1;
+    padding:50px;
+    letter-spacing: 2px;
+    background: rgba(254, 248, 222, 1);
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lowerBtn{
+    border: 1px dotted black;
+    border-radius: 15px;
+    width: fit-content;
+    padding:8px 15px 8px;
+    cursor: pointer;
+}

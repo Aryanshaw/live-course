@@ -1,0 +1,49 @@
+.container{
+    background: rgba(0, 54, 78, 1);
+    display: flex;
+    width: 100%;
+    height:350px;
+    justify-content: space-between;
+}
+.imgContainer{
+    position: relative;
+    left:50px;
+}
+
+.img1{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left:50px;
+}
+.img2{
+    position: absolute;
+    bottom: 0;
+}
+
+
+.infoLeftContainer{
+    width:524px;
+    height: 292px;
+    align-self: center;
+    position: absolute;
+    right: 80px;
+    color:white;
+}
+
+.infoLeftContainer h1{
+    font-size: 3em;
+    font-weight: bold;
+}
+.infoLeftContainer p{
+    letter-spacing:2px;
+}
+
+.lowerbtn{
+    padding:10px 40px 10px;
+    background-color:rgba(0, 123, 255, 1);
+    color:white;
+    border-style: none ;
+    width: fit-content;
+    border-radius: 10px;
+}

@@ -1,0 +1,45 @@
+/* Adjust styles as needed for your design */
+footer {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-logo img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-links ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-contact p {
+    margin: 0;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+  }
+  

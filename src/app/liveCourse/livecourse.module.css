@@ -1,0 +1,172 @@
+.container{
+    min-height:100vh;
+    width: 100%;
+    background-color: rgba(0, 123, 255, 0.703);
+    color: white;
+    
+}
+.centerContainer{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color: white;
+    margin-top: 40px;
+    gap:40px;
+}
+.infoContainer{
+    width: 601px;
+    height: 530px;
+    align-items:center;
+}
+
+.infoContainer p{
+    letter-spacing:2px;
+}
+.batchInfoContainer{
+    display: flex;
+    gap:10px;
+}
+.batchInfoContainer span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.batchInfoContainer p{
+    font-size:10px;
+}
+.priceInfoContainer{
+    border:2px solid yellow;
+    border-radius: 15px;
+    display: flex;
+    justify-content:space-between;
+    padding: 15px;
+    margin-top: 30px;
+}
+.priceDetails{
+    margin-bottom:10px;
+}
+
+.discount{
+    background: rgba(0, 54, 78, 1);
+    border-radius: 5px;
+    color:white;
+    align-self: center;
+    padding:5px;
+}
+
+.buttonContainer{
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 30px;
+}
+
+.btn1 {
+    background-color:white;
+    padding:10px 50px 10px;
+    border:none;
+    border-radius:10px;
+    color: rgb(0, 123, 255);
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn2{
+    border-radius:10px;
+    border:1px solid yellow;
+    padding:10px 50px 10px ;
+    cursor: pointer;
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        min-height: 100vh;
+        width: 100%;
+        background-color: rgba(0, 123, 255, 0.703);
+        color: white;
+    }
+    
+    .centerContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        margin-top: 40px;
+        padding: 0 20px;
+    }
+    
+    .infoContainer {
+        width: 100%; /* Adjust width for smaller screens */
+        max-width: 601px; /* Maximum width for larger screens */
+        height: auto; /* Adjust height for smaller screens */
+        align-items: center;
+        margin-top: 20px; /* Adjust margin for smaller screens */
+    }
+    
+    .infoContainer p {
+        letter-spacing: 1px; /* Adjust letter-spacing for smaller screens */
+    }
+    
+    .batchInfoContainer {
+        display: flex;
+        flex-direction: column; /* Stack items in a column */
+        gap: 10px;
+    }
+    
+    .batchInfoContainer span {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    
+    .batchInfoContainer p {
+        font-size: 12px; /* Adjust font size for smaller screens */
+    }
+    
+    .priceInfoContainer {
+        border: 2px solid yellow;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column; /* Stack items in a column */
+        padding: 15px;
+        margin-top: 20px; /* Adjust margin for smaller screens */
+    }
+    
+    .priceDetails {
+        margin-bottom: 10px;
+    }
+    
+    .discount {
+        background: rgba(0, 54, 78, 1);
+        border-radius: 5px;
+        color: white;
+        align-self: center;
+        padding: 5px;
+    }
+    
+    .buttonContainer {
+        display: flex;
+        flex-direction: column; /* Stack buttons in a column */
+        align-items: center;
+        margin-top: 20px; /* Adjust margin for smaller screens */
+    }
+    
+    .btn1 {
+        background-color: white;
+        padding: 10px 30px; /* Adjust padding for smaller screens */
+        border: none;
+        border-radius: 10px;
+        color: rgb(0, 123, 255);
+        font-weight: bold;
+        cursor: pointer;
+        margin-bottom: 10px; /* Adjust margin for smaller screens */
+    }
+    
+    .btn2 {
+        border-radius: 10px;
+        border: 1px solid yellow;
+        padding: 10px 30px; /* Adjust padding for smaller screens */
+        cursor: pointer;
+    }
+    
+}

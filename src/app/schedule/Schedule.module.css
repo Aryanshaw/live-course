@@ -1,0 +1,92 @@
+.container{
+    background-color: white;
+    height:100vh;
+    position: relative;
+    padding:10px 30px 10px;
+}
+
+.centerContainer{
+    background-color: rgb(227, 227, 227);
+    padding:40px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 20px;
+    
+}
+.header{
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+.header p{
+    font-weight: 600;
+}
+.header span{
+    display: flex;
+}
+.dropdown{
+    border: 1px solid rgba(0, 123, 255, 1);
+    background-color:rgba(230, 242, 255, 1);
+    padding:10px 30px 10px;
+    border-radius:25px;
+    cursor: pointer;
+}
+.scheduleContainer{
+    max-height: 370px;
+    overflow-y: scroll;
+    margin:20px;
+}
+.weekDay{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    justify-self: unset;
+    margin:20px;
+}
+.subject{
+    background-color: white;
+    width: 484px;
+    height: 102px;
+    border-radius: 12px;
+    padding: 16px ;
+    border-left: 10px solid green;
+}
+.subjectHeader{
+    justify-content: space-between ;
+    display:flex;
+    margin-bottom:5px;
+}
+
+.subjectDesc{
+    letter-spacing: 2px;
+}
+
+.lowerContainer{
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 54, 78, 1);
+    position: absolute;
+    width:90%;
+    bottom:15px;
+    align-items: center;
+    height:130px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+.lowerContainer span{
+    display: flex;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin:10px;
+}
+.lowerBtn{
+    width: fit-content;
+    background:rgba(0, 123, 255, 1);
+    color:white;
+    padding: 5px 20px 5px;
+    border-radius: 10px;
+
+}
