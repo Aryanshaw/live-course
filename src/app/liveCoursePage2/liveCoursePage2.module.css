@@ -40,3 +40,54 @@
     letter-spacing: 2px;
     margin:40px;
 }
+
+@media (max-width: 768px) {
+    .container {
+        min-height: 100vh;
+        width: 100%;
+        background-color: rgb(232, 232, 232);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 10px;
+    }
+    
+    .navbar .activeTab {
+        border-bottom: 3px solid rgb(0, 123, 255);
+        color: rgb(0, 123, 255);
+    }
+    
+    .navbar .navItem {
+        font-weight: 600;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+    
+    .centerContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .leftContainer h1 {
+        font-size: 40px; 
+    }
+    
+    .leftContainer p {
+        font-weight: 600;
+        margin-left: 2px;
+    }
+    
+    .leftContainer span {
+        display: flex;
+        letter-spacing: 2px;
+        margin: 20px;
+    }
+    
+}

@@ -34,3 +34,17 @@
     padding:8px 15px 8px;
     cursor: pointer;
 }
+
+@media (max-width: 768px){
+    .container {
+        flex-direction: row;
+    }
+  
+    .leftContainer {
+        flex: 1;
+    }
+  
+    .rightContainer {
+        flex: 1;
+    }
+}

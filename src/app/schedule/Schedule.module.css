@@ -90,3 +90,12 @@
     border-radius: 10px;
 
 }
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .subject {
+        width: 100%;
+    }
+}
